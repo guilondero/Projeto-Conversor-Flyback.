@@ -5,7 +5,7 @@ import math
 Po   = 80                                  # Potencia de saida (W)
 fs   = 1.8e3                               # Frequencia de chaveamento (Hz)
 Ts   = 1/fs                                # Periodo de chaveamento (s)
-Vin  = 220*math.sqrt(2)                         # Tensao de entrada (V)
+Vin  = 220*math.sqrt(2)                    # Tensao de entrada (V)
 Vo   = 6e3                                 # Tensao de saida (modulo) (V)
 DILp = 15/100                              # Ondulacao de corrente no indutor (%)
 DVop = 2/100                               # Ondulacao de tensao do capacitor (%)
