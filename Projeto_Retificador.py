@@ -3,10 +3,10 @@ import math
 
 ##### especificacoes do projeto ######
 
-Vrms = 220
-f = 60
-ripple = 0.5/100
-Po = 80
+Vrms = 220                                        #Tensão RMS
+f = 60                                            #Frequencia em Hz
+ripple = 0.5/100                                  # ripple da tensão
+Po = 80                                           #Potencia de saida
 
 #### calculos  para retificador ######
 
