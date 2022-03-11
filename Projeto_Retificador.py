@@ -5,13 +5,13 @@ import math
 
 Vrms = 220                                        #Tensão RMS
 f = 60                                            #Frequencia em Hz
-ripple = 0.5/100                                  # ripple da tensão
+ripple = 0.5/100                                  #ripple da tensão
 Po = 80                                           #Potencia de saida
 
 #### calculos  para retificador ######
 
 Vmax = Vrms*math.sqrt(2)                          #Tensão maxima
-Vmin = Vmax*(1-ripple)
+Vmin = Vmax*(1-ripple)                            #Tensão minima
 Vo = (Vmax+Vmin)/2
 Ro = (Vo**2)/Po
 Iin = Po/Vrms
