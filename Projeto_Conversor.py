@@ -9,14 +9,14 @@ Vin  = 220*math.sqrt(2)                    # Tensao de entrada (V)
 Vo   = 6e3                                 # Tensao de saida (modulo) (V)
 DILp = 15/100                              # Ondulacao de corrente no indutor (%)
 DVop = 2/100                               # Ondulacao de tensao do capacitor (%)
-D = 0.7
+D = 0.7                                    # Razão cicicla 
 
 
 #### calculos de projeto #####
 
 n  = (Vo/Vin)*(1-D)/D                      # Relacao de transformacao (n = N2/N1)
 
-Ro = Vo**2/Po                               # Resistencia de carga (Ohms)
+Ro = Vo**2/Po                              # Resistencia de carga (Ohms)
 Io = Vo/Ro                                 # Corrente media de carga (A)
 
 Pin = Po;                                  # Potencia de entrada (W)
