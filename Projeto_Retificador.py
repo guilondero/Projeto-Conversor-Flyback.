@@ -25,6 +25,7 @@ Idmed = Vmax/(math.pi*Ro)                       #Corrente media do diodo
 
 
 
+##### PRINT DOS RESULTADOS #########
 print("Vmax: ", Vmax)
 print("Vmin: ", Vmin)
 print("Vo: ", Vo)
