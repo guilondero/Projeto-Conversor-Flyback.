@@ -12,8 +12,8 @@ Po = 80                                           #Potencia de saida
 
 Vmax = Vrms*math.sqrt(2)                          #Tensão maxima
 Vmin = Vmax*(1-ripple)                            #Tensão minima
-Vo = (Vmax+Vmin)/2
-Ro = (Vo**2)/Po
+Vo = (Vmax+Vmin)/2                                #Tensão de saida
+Ro = (Vo**2)/Po                                   #Resistencia
 Iin = Po/Vrms
 
 ##### Calculo do filtro #########
