@@ -21,7 +21,7 @@ C = (Po)/(f*((Vmax**2)-(Vmin**2)))               #Calculo do capacitor
 
 ###### DIODOS  ##########
 Vdmax = Vmax*1.5                                #Tensão maxima do diodo
-Idmed = Vmax/(math.pi*Ro)
+Idmed = Vmax/(math.pi*Ro)                       #Corrente media do diodo
 
 
 
