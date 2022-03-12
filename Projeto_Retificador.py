@@ -20,7 +20,7 @@ Iin = Po/Vrms
 C = (Po)/(f*((Vmax**2)-(Vmin**2)))               #Calculo do capacitor
 
 ###### DIODOS  ##########
-Vdmax = Vmax*1.5
+Vdmax = Vmax*1.5                                #Tensão maxima do diodo
 Idmed = Vmax/(math.pi*Ro)
 
 
