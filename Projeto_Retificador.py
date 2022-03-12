@@ -17,9 +17,9 @@ Ro = (Vo**2)/Po                                   #Resistencia
 Iin = Po/Vrms
 
 ##### Calculo do filtro #########
-C = (Po)/(f*((Vmax**2)-(Vmin**2)))
+C = (Po)/(f*((Vmax**2)-(Vmin**2)))               #Calculo do capacitor
 
-###### DIODOS ######
+###### DIODOS  ##########
 Vdmax = Vmax*1.5
 Idmed = Vmax/(math.pi*Ro)
 
