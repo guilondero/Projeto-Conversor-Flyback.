@@ -8,8 +8,8 @@ format short eng
 
 Vrms = 220;                                #Tensão RMS
 f = 60;                                    # Frequencia em Hz
-ripple = 0.5/100;
-Po = 80;
+ripple = 0.5/100;                          # Ripple de tensão
+Po = 80; 
 
 %%%%% calculos  para retificador %%%%%
 Vmax = Vrms*sqrt(2);
