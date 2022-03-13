@@ -4,9 +4,9 @@ close all
 clc
 format short eng
 
-%%%%% especificações do projeto %%%%%%
+%%%%% especificaÃ§Ãµes do projeto %%%%%%
 
-Vrms = 220;
+Vrms = 220;                                #TensÃ£o RMS
 f = 60;
 ripple = 0.5/100;
 Po = 80;
