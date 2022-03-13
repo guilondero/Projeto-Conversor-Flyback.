@@ -7,7 +7,7 @@ format short eng
 %%%%% especificações do projeto %%%%%%
 
 Vrms = 220;                                #Tensão RMS
-f = 60;
+f = 60;                                    # Frequencia em Hz
 ripple = 0.5/100;
 Po = 80;
 
