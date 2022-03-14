@@ -12,7 +12,7 @@ ripple = 0.5/100;                          # Ripple de tensão
 Po = 80;                                   # Potencia de saida
 
 %%%%% calculos  para retificador %%%%%
-Vmax = Vrms*sqrt(2);
+Vmax = Vrms*sqrt(2);                      #Tensao maxima
 Vmin = Vmax*(1-ripple);
 Vo = (Vmax+Vmin)/2;
 Ro = (Vo^2)/Po;
