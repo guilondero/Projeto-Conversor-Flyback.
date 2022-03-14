@@ -13,7 +13,7 @@ Po = 80;                                   # Potencia de saida
 
 %%%%% calculos  para retificador %%%%%
 Vmax = Vrms*sqrt(2);                      #Tensao maxima
-Vmin = Vmax*(1-ripple);
+Vmin = Vmax*(1-ripple);                   #Tensao minima
 Vo = (Vmax+Vmin)/2;
 Ro = (Vo^2)/Po;
 Iin = Po/Vrms;
